@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 95vh; }
+
+nav {
+  position: relative; }
+
+.background-cover {
+  width: 100%;
+  height: 799px;
+  background-image: url(../Images/cover.jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  border: 2px solid red;
+  position: absolute;
+  top: -67px; }
+
+.navbar-icon {
+  height: 100%;
+  display: flex;
+  overflow: hidden; }
+
+.secondyly-container {
+  width: 1531px; }
+
+.secondyly-container .part-2 {
+  position: relative; }
+
+.logo {
+  margin-top: 20px; }
+
+.row ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  padding: 0 0 0 15px; }
+
+.row ul li {
+  cursor: pointer; }
+
+.row ul li a:hover {
+  color: goldenrod; }
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  overflow: hidden; }
